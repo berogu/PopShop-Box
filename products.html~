@@ -1,0 +1,190 @@
+<html>
+<head>
+<title>PopShop-Products</title>
+<meta charset=utf-8>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="script/script.js"></script> 
+  
+  <link rel="stylesheet" type="text/css" href="owl/dist/assets/owl.carousel.min.css"> 
+<link rel="stylesheet" href="owl/dist/assets/owl.theme.default.min.css">
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="owl/dist/owl.carousel.min.js"></script>
+
+<style>
+@media (max-width: 960px) {
+  nav ul     { display: none; }
+  nav select { display: inline-block; }
+   
+}
+.owl-carousel .owl-item img{
+width: 60%;
+}
+::-webkit-scrollbar { 
+    display: none; 
+}
+</style>
+
+</head>
+
+<body>
+<!--  Navbar  -->
+
+<div class="topnav" id="myTopnav">
+<div class="col-sm-8" style="text-align:center">
+	<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+   <a href="#about">About</a>
+   <a href="#contact">Contact</a>
+   <a href="#products" class="active">Products</a>
+   <a href="index.html">Home</a>
+</div>
+</div>
+
+<!--Navbar-End-->
+
+
+
+
+<!--Left-Item-->
+<div>
+<div class="row" style="margin:20px 30px;">
+<div class="col-md-3" style="background-color:#ddd">
+<nav>
+  <ul style="list-style-type:none;padding:10px 10px 0px 10px;">
+    <li><p style="text-align:center;color:orangered;">Man</p></li>
+    <li><hr></li>
+    <li><a href="#"><p class="products-item">Shirt</p></a></li>
+    <li><a href="#"><p class="products-item">T-Shirt</p></a></li>
+    <li><a href="#"><p class="products-item">Sweatshirt</p></a></li>
+    <li><a href="#"><p class="products-item">Jacket</p></a></li>
+    <li><a href="#"><p class="products-item">Shoe</p></a></li>
+    <li><a href="#"><p class="products-item">Accessesuar</p></a></li>
+    </ul>
+	
+</nav>
+</div>
+
+<div class="col-md-6" style="height: 100%; overflow-y: scroll;">
+<div class="owl-carousel owl-theme">
+<img class="border-premium" src="images/index.png" alt="logo">
+<img class="border-premium" src="images/index.png" alt="logo">
+<img class="border-premium" src="images/index.png" alt="logo">
+<img class="border-premium" src="images/index.png" alt="logo">
+<img class="border-premium" src="images/index.png" alt="logo">
+<img class="border-premium" src="images/index.png" alt="logo">
+<img class="border-premium" src="images/index.png" alt="logo">
+<img class="border-premium" src="images/index.png" alt="logo">
+<img class="border-premium" src="images/index.png" alt="logo">
+</div>
+
+<!--Content-->
+<p>1500'lerden beri kullanılan standart Lorem Ipsum pasajı
+
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+M.Ö. 45 tarihinde Çiçero tarafından yazılan "de Finibus Bonorum et Malorum"un 1.10.32 sayılı bölümü
+
+"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+1914 tarihli H. Rackham Çevirisi
+
+"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
+M.Ö. 45 tarihinde Çiçero tarafından yazılan "de Finibus Bonorum et Malorum"un 1.10.33 sayılı bölümü
+
+"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
+</p>
+
+
+
+
+
+
+
+<!--Content-End-->>
+</div>
+
+<div class="col-md-3" style="background-color:#ddd">
+<nav>
+  <ul style="list-style-type:none;padding: 10px 10px 0px 10px;">
+    <li><p style="text-align:center;color:orangered;">Woman</p></li>
+    <li><hr></li>
+    <li><a href="#"><p class="products-item back-color">Shirt</p></a></li>
+    <li><a href="#"><p class="products-item">T-Shirt</p></a></li>
+    <li><a href="#"><p class="products-item">Sweatshirt</p></a></li>
+    <li><a href="#"><p class="products-item">Jacket</p></a></li>
+    <li><a href="#"><p class="products-item">Shoe</p></a></li>
+    <li><a href="#"><p class="products-item">Accessesuar</p></a></li>
+  </ul>
+</nav>
+</div>
+
+</div>
+</div>
+<!--Left-Item-End-->
+
+<!--Right-Item-->
+<!--Right-Item-End-->
+
+
+
+<!--Center-Products-->
+
+
+
+
+
+
+<script>
+$(document).ready(function() {
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    navText:['<<', '>>'],
+    margin:10,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:3,
+            nav:false
+        },
+        1000:{
+            items:5,
+            nav:true,
+            loop:false
+        }
+    }
+});
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+
+
+
+
+
+
+
+</body>
+</html>
